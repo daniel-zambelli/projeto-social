@@ -33,10 +33,29 @@ main {
     background: url('../imagens/frame-iphone.png') center center no-repeat fixed;
 }
 
-#tela {
+#tela { /*Posicionamento da TELA HOME dentro da tela do celular*/
     position: relative;
     top: 81px;
     left: 22px;
     height: 470px;
     width: 266px;
+}
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.366);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.467);
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.566);
+    transition: transform .3s, border 0.15s;
 }
